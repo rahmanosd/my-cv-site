@@ -11,7 +11,7 @@ const Projects = () => {
         <Reveal>
             <div id='projects'>
                 <h2 className="text-3xl hover:text-orange-400 text-center mt-4">𝙼𝚈 𝙿𝚁𝙾𝙹𝙴𝙲𝚃𝚂</h2>
-                <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-7 mt-4'>
+                <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-7 mt-4'>
 
                     {/* Projects card - 1 */}
 
@@ -56,7 +56,8 @@ const Projects = () => {
                         </div>
                     </div>
                     {/* projects card - 3 */}
-                    <div  className='transform transition-transform duration-300 ease-in-out hover:scale-105 cursor-pointer'>
+
+                    <div className='transform transition-transform duration-300 ease-in-out hover:scale-105 cursor-pointer'>
                         <div className="card  bg-base-200 shadow-xl">
                             <figure><img src={project3} className='md:h-[180px] md:w-full' alt="Shoes" /></figure>
                             <div className="card-body">
@@ -73,11 +74,11 @@ const Projects = () => {
                                     <a href="https://github.com/rahmanosd/g3-architects-website" className='btn btn-sm btn-outline'><FaGithub></FaGithub>Github Code</a>
                                 </div>
                             </div>
+
                         </div>
 
                     </div>
                 </div>
-
             </div>
         </Reveal>
     );

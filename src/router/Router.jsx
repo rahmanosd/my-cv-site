@@ -1,10 +1,11 @@
 
-import { createBrowserRouter } from "react-router-dom";
+import {createHashRouter, HashRouter } from "react-router-dom";
 import Root from "../layout/Root";
 import Home from "../page/Home/Home";
 
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
+  
   {
     path: "/",
     element: <Root></Root>,
@@ -15,4 +16,5 @@ export const router = createBrowserRouter([
         }
     ]
   },
+
 ]);
