@@ -7,9 +7,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist",
-    "postbuild": "copy dist\\index.html dist\\404.html",
+    "predeploy": "npm run build",
+    "postbuild": "copyfiles dist/index.html dist/404.html",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -32,6 +32,7 @@
     "@types/react-dom": "^19.1.2",
     "@vitejs/plugin-react": "^4.4.1",
     "autoprefixer": "^10.4.21",
+    "copyfiles": "^2.4.1",
     "daisyui": "^5.0.43",
     "eslint": "^9.25.0",
     "eslint-plugin-react-hooks": "^5.2.0",
