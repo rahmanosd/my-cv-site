@@ -20,7 +20,7 @@ const Home = () => {
                 <div className="relative mt-5">
                     <div className="hero min-h-screen"
                     >
-                        <img className=' h-[470px] w-full' src={banner} alt="" />
+                        <img className='min-h-screen' src={banner} alt="" />
                         <div className="hero-content text-neutral-content text-center">
                             <div className="max-w-md">
                                 <h1 className="mb-5 text-5xl font-bold text-white hover:text-blue-700">Web Developer</h1>
