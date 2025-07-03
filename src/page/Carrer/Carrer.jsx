@@ -4,7 +4,7 @@ import Reveal from '../../animation/Reveal';
 
 const Carrer = () => {
     return (
-          <Reveal>
+        <Reveal>
         <div id='carrer'>
          <h2 className='text-3xl hover:text-slate-600 text-center mt-3'>𝙼𝚈 𝙲𝙰𝚁𝚁𝙴𝚁</h2>
             <div className="overflow-x-auto mt-3 border border-black">

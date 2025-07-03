@@ -1,7 +1,6 @@
-import React from 'react';
+
 import Header from '../shared/Header/Header';
 import News from './News';
-import Navbar from '../shared/Navbar/Navbar';
 import banner from '../../assets/banner.jpg';
 import About from '../About/About';
 import Projects from '../Projects/Projects';

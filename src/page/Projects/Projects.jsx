@@ -11,7 +11,7 @@ const Projects = () => {
         <Reveal>
             <div id='projects'>
                 <h2 className="text-3xl hover:text-orange-400 text-center mt-4">𝙼𝚈 𝙿𝚁𝙾𝙹𝙴𝙲𝚃𝚂</h2>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-4'>
+                <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-7 mt-4'>
 
                     {/* Projects card - 1 */}
 
